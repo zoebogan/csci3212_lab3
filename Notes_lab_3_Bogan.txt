@@ -1,0 +1,25 @@
+Binary Search Trees: 
+Brute Force Approach: Describe and implement a naive solution, analyzing its time and space complexities.
+
+Efficient BST Solution: Outline your approach using BST, providing both pseudocode and source code. Discuss the time and space complexities.
+
+Comparative Analysis: Compare the brute force and BST solutions in terms of efficiency. Use empirical data or theoretical analysis to support your comparison.
+
+Reflection: Reflect on the learning process. What challenges did you encounter, and how did you overcome them? Which BST properties were most beneficial for solving the problems?
+
+
+Hashing: 
+Brute Force Approach: Describe a non-hashing solution, detailing its implementation and analyzing its efficiency.
+
+Hashing Solution: Present your hashing-based solution with pseudocode and actual code. Discuss the choice of hash function and collision resolution (if applicable), along with the complexity analysis.
+
+Comparative Analysis: Contrast the brute force and hashing solutions, highlighting the efficiency gains from using hashing.
+
+Reflection: Reflect on your experience. Discuss any challenges you faced with hashing and how you addressed them. What insights did you gain about the advantages and limitations of hashing?
+
+
+Overall Reflection:
+This homework was helpful for me to learn how to use Leetcode, as I have never used it. 
+The freedom of Leetcode was useful for me try different implementations using BST and Hashing.
+I learned how efficient both solutions are when considering low level problems and
+knowing when to use each one for a more efficient algorithm.   
