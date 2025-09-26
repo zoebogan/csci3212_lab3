@@ -1,4 +1,7 @@
 Binary Search Trees: 
+
+Analysis: After implementing your solution, analyze its time and space complexity. Consider the impact of the BST properties on your solution’s efficiency.
+
 Brute Force Approach: Describe and implement a naive solution, analyzing its time and space complexities.
 
 Efficient BST Solution: Outline your approach using BST, providing both pseudocode and source code. Discuss the time and space complexities.
@@ -9,6 +12,9 @@ Reflection: Reflect on the learning process. What challenges did you encounter, 
 
 
 Hashing: 
+
+Analysis: Evaluate the time and space efficiency of your hashing solutions, noting how the hash function and collision resolution strategy impact performance.
+
 Brute Force Approach: Describe a non-hashing solution, detailing its implementation and analyzing its efficiency.
 
 Hashing Solution: Present your hashing-based solution with pseudocode and actual code. Discuss the choice of hash function and collision resolution (if applicable), along with the complexity analysis.
