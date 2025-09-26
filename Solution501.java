@@ -1,3 +1,4 @@
+//Traverses through the tree checking each node
 public class Solution501 {
     class Solution {
         public int[] findMode(TreeNode root) {

@@ -1,3 +1,5 @@
+//Used a HashMapp to get numbers that added up to a target
+
 public class Solution1 {
     class Solution {
         public int[] twoSum(int[] nums, int target) {

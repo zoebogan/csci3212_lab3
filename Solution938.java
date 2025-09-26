@@ -1,3 +1,4 @@
+//Uses recursion to sum the values of a given node 
 public class Solution938 {
     class Solution {
         public int rangeSumBST(TreeNode root, int low, int high) {

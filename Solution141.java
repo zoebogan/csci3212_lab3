@@ -1,3 +1,4 @@
+//Uses a Hash Set to see if the same node has been reached 
 public class Solution141 {
     public class Solution {
         public boolean hasCycle(ListNode head) {

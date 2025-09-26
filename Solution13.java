@@ -1,3 +1,5 @@
+// Creates a Hash Map for each roman value to add together
+
 public class Solution13 {
     class Solution {
         public int romanToInt(String s) {

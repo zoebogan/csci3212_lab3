@@ -1,3 +1,5 @@
+//Uses a Hash Map to map indices to values which is iterated
+//through to find a mismatch to indicate the missing number
 public class Solution268 {
     class Solution {
         public int missingNumber(int[] nums) {

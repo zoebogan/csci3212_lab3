@@ -1,3 +1,4 @@
+//Uses recursion to compare values in a tree
 public class Solution700 {
     class Solution {
         public TreeNode searchBST(TreeNode root, int val) {

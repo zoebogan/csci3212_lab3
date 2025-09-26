@@ -1,28 +1,49 @@
 Binary Search Trees: 
 
 Analysis: After implementing your solution, analyze its time and space complexity. Consider the impact of the BST properties on your solution’s efficiency.
+The BST time and space complexity is dependent on the BST property. The average case is O(log n) because the tree is balanced.
+However if the tree is completely unbalanced than there is a time complexity of O(n). Lastly, the space complexity of any BST is O(n)
+for storing n nodes. 
 
 Brute Force Approach: Describe and implement a naive solution, analyzing its time and space complexities.
+A brute force approach would consist of using nested loops to iterate through each element and check the rest of the array for matching elements.
+This is a time complexity of O(n^2), as there are n comparisons for the first element and n-1 for the second, and so on.
+The space complexity is O(1) since no new arrays are being used in a simple comparison problem with BST.
 
 Efficient BST Solution: Outline your approach using BST, providing both pseudocode and source code. Discuss the time and space complexities.
+For searching for an element with an BST solution would involve comparing the target value with the root. If the target is less than move to the left child.
+Otherwise if the target is greater than move to the right child to find the matching element. The time complexity is O(log n) when the BST is balanced or O(n) 
+if the BST is unbalanced. The space complexity is O(h), where h is the height of the BST.
 
 Comparative Analysis: Compare the brute force and BST solutions in terms of efficiency. Use empirical data or theoretical analysis to support your comparison.
+The BST soultion is more efficient than the brute force solution. If you are looking at a dataset of n = 1,000,000, brute force would be approximately 10^12 operations.
+While an efficient BST approach would be 20 operations. 
 
 Reflection: Reflect on the learning process. What challenges did you encounter, and how did you overcome them? Which BST properties were most beneficial for solving the problems?
-
+The biggest challenge was to implement a efficient BST solution. I was able to think of a framework using brute force, so translating that to an BST solution took time. I reflect on the
+in class notes and some google searches to help me understand how to implement at BST solution. The most beneficial BST solution was left subtree < root value < right subtrees. This made partitioning
+more efficient to solving the problems.
 
 Hashing: 
 
 Analysis: Evaluate the time and space efficiency of your hashing solutions, noting how the hash function and collision resolution strategy impact performance.
+The average case for hashing is O(1) because keys are uniformly distributed in the hash table to avoid confusion. The worst case is O(n) because of keys being mapped to the same bucket
+so search needs to be performed. The space complexity is O(n) for the storing of each key value pair. 
 
 Brute Force Approach: Describe a non-hashing solution, detailing its implementation and analyzing its efficiency.
+A non-hashing solution would involve a linked list or array to store the information. Thus a search algorithm could be 
+used to efficiently find the key needed in a solution. This time and space and space complexity would be O(n) since all elements would be iterated through. 
 
 Hashing Solution: Present your hashing-based solution with pseudocode and actual code. Discuss the choice of hash function and collision resolution (if applicable), along with the complexity analysis.
+A hashing solution for checking if an element existed would consist of passing a key through a hash table and using an index to quickly locate that key. Using the collision resolution strategy to search for 
+the key would be most efficient. This makes it faster to compute and provides a uniform distribution of keys to minimize collisions. The time complexity is O(1) and the space complexity is O(n).
 
 Comparative Analysis: Contrast the brute force and hashing solutions, highlighting the efficiency gains from using hashing.
+The brute force provides a time complexity of O(n) while hashing is O(1). Brute force does provide an simple implementation however,
+hashing has constant time operations making it more efficient for large-scale datasets. 
 
 Reflection: Reflect on your experience. Discuss any challenges you faced with hashing and how you addressed them. What insights did you gain about the advantages and limitations of hashing?
-
+With hashing I had to remember the efficientness of using a hash table and how to access the key value pairs. However, once I was able to figure out that it was easy to implement and complete the problems. 
 
 Overall Reflection:
 This homework was helpful for me to learn how to use Leetcode, as I have never used it. 
